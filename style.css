@@ -1,0 +1,820 @@
+/* common codes start here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    font-family: "Roboto", sans-serif;  
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h4, h5, h6{
+    font-family: "Roboto", sans-serif;  
+    cursor: pointer;
+}
+
+/* common codes end here */
+
+/* navbar css start here */
+
+.navbar-first-section__a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-first-section__a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar-first-section__1st-row ul li{
+    display: inline-block;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.navbar-first-section__1st-row ul li p{
+    font-size: 13px;
+    font-family: "Roboto", sans-serif; 
+    cursor: pointer; 
+}
+
+.navbar-first-section__2nd-row ul li{
+    display: inline-block;
+    padding: 0px 8px;
+    cursor: pointer;
+}
+
+.navbar-first-section__2nd-row ul li p{
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;  
+    cursor: pointer;
+}
+
+.navbar-first-section__2nd-row__icon{
+    color: black;
+    font-size: 21px;
+    padding: 0px 4px;
+    margin-top: 2px;
+}
+
+.navbar-first-section__2nd-row__icon:hover{
+    color: #0654BA;
+}
+
+.navbar-first-section__li1{
+    margin-left: 20px;
+}
+
+.navbar-first-section__hr{
+    margin-top: -32px;
+}
+
+
+.navbar-second-section__1st-row img{
+    width: 130px;
+    margin-top: -44px;
+    margin-left: 45px;
+    margin-bottom: 0px;
+}
+
+.navbar-second-section{
+    position: relative;
+    right: 0px;
+}
+
+.navbar-second-section__2nd-row p{
+    color: rgb(105, 105, 105);
+    font-size: 14px;
+    margin-left: -30px;
+    margin-top: 5px;
+    padding-right: 15px;
+}
+
+.navbar-second-section__2nd-row p:hover{
+    color: #0654BA;
+}
+
+.navbar-second-section__2nd-row p i{
+    color: black;
+    font-size: 18px;
+    padding-left: 6px;
+    position: absolute;
+    top: 18px;
+}
+
+.searchbar-div{
+    border: 2px solid black;
+    margin-left: -57px;
+    width: 760px;
+}
+
+#searchbar{
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border: none;
+    width: 597px;
+}
+
+.categoris-select{
+    width: 160px;
+    float: right;
+    font-size: 12px;
+    padding: 10px 15px 10px 15px;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+
+.navbar-second-section__4th-row button{
+    font-size: 15px;
+    color: white;
+    background-color: #3665F3;
+    border: none;
+    padding: 10px 62px 10px 62px;
+    margin-left: 21px;
+}
+
+.navbar-second-section__4th-row a{
+    color: gray;
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 11px;
+
+    position: absolute;
+    top: 13px;
+}
+
+.navbar-second-section__hr{
+    margin-top: -25px;
+}
+
+.navbar-thired-section{
+    text-align: center;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -13px;
+}
+
+.navbar-thired-section ul li{
+    display: inline-block;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: rgb(56, 56, 56);
+}
+
+.love-icon{
+    font-size: 12px;
+    padding-right: 3px;
+    color: rgb(90, 90, 90);
+}
+
+.navbar-second-section__underline{
+    height: 1px;
+    width: 32px;
+    background-color: black;
+    margin-top: -25px;
+    margin-left: 45px;
+}
+
+.home{
+    color: black;
+}
+
+/* navbar css end here */
+
+/* main first banner css start here */
+
+.main-1st-section{
+    background-color: #71E3E4;
+    color: #003147;
+    height: 349px;
+    position: relative;
+    top: 18px;
+}
+
+.main-1st-section__1st-banner h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 10px 60px;
+}
+
+.main-1st-banner__title p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #003147;
+    margin: 10px 60px;
+}
+
+.main-1st-section__1st-banner button{
+    font-size: 17px;
+    color: #003147;
+    background-color: #71E3E4;
+    border: 1px solid #003147;
+    border-radius: 500px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin: 10px 60px;
+    transition: .3s;
+}
+
+.main-1st-section__1st-banner button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.main-1st-banner__image{
+    position: absolute;
+    left: 380px;
+    bottom: 12px;
+}
+
+.carousel__arrow-left-icon{
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -170px;
+    position: relative;
+}
+
+.carousel__arrow-left-icon__i{
+    color: black;
+    transform: rotate(180deg);
+
+    position: absolute;
+    top: 3px;
+    right: 9px;
+}
+
+.carousel__arrow-right-icon{
+    font-size: 23px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 170px;
+    position: relative;
+}
+
+.carousel__arrow-right-icon__i{
+    color: black;
+
+    position: absolute;
+    top: 4px;
+    right: 6px;
+}
+
+/* main first banner css end here */
+
+/* main second banner css start here */
+
+.b-2{
+    background-color: #027290;
+}
+
+.b-title-2{
+    color: white;
+    background-color: #027290;
+}
+
+.b-title-2 p{
+    color: white;
+}
+
+.b-title-2 button{
+    color: white;
+    background-color: #027290;
+    border: 1px solid white;
+}
+
+.b-img-2{
+    position: absolute;
+    left: 400px;
+    bottom: 30px;
+}
+
+/* main second banner css end here */
+
+/* main thired banner css start here */
+
+.b-3{
+    background-color: #DD3D08;
+}
+
+.b-title-3{
+    color: white;
+    background-color: #DD3D08;
+}
+
+.b-title-3 p{
+    color: white;
+}
+
+.b-title-3 h1{
+    font-size: 40px;
+}
+
+.b-title-3 button{
+    color: white;
+    background-color: #DD3D08;
+    border: 1px solid white;
+}
+
+.b-img-3{
+    position: absolute;
+    left: 400px;
+    bottom: 17px;
+}
+
+/* main thired banner css end here */
+
+/* main fourth banner css start here */
+
+.b-4{
+    background-color: #94C8FF;
+}
+
+.b-title-4{
+    color: #121258;
+    background-color: #94C8FF;
+}
+
+.b-title-4 h1{
+    font-size: 40px;
+}
+
+.b-title-4 button{
+    color: #121258;
+    background-color: #94C8FF;
+    border: 1px solid #121258;
+}
+
+.b-title-4 p{
+    color: #121258;
+}
+
+.b-img-4{
+    position: absolute;
+    left: 400px;
+    bottom: 17px;
+}
+
+/* main fourth banner css end here */
+
+/* main second section css start here */
+
+.main-2nd-section{
+    background-color: #FBCD25;
+    color: #592E13;
+    width: 1250px;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.main-2nd-section__tittle h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main-2nd-section__btn button{
+    float: right;
+    margin-top: 8px;
+    color: #592E13;
+    padding: 6px 15px 9px 15px;
+    background-color: #FBCD25;
+    border: 1px solid #592E13;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.main-2nd-section__btn button:hover{
+    color: #FBCD25;
+    background-color: #592E13;
+}
+
+/* main second section css end here */
+
+/* main thired section start here */
+
+.m-3-a1{
+    color: black;
+    text-decoration: none;
+}
+
+.m-3-a1:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.m-3-h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 49px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.m-3-p{
+    color: black;
+    float: right;
+    margin-top: -60px;
+    margin-right: 49px;
+    text-decoration: underline;
+}
+
+.m-3-p:hover{
+    color: gray;
+}
+
+.item__img {
+    width: 165px;
+    margin-top: -20px;
+}
+
+/* .item__img{
+    width: 160px;
+    height: 160px;
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.main-3rd-section__item a{
+    color: black;
+    text-decoration: none;
+}
+
+.item__tittle{
+    color: black;
+    width: 160px;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.main-3rd-section__all-item{
+    display: flex;
+    justify-content: center;
+}
+
+.main-3rd-section__item{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.item__hr{
+    width: auto;
+    height: 2px;
+    background-color: black;
+    display: none;
+}
+
+.main-3rd-section__item:hover .item__hr{
+    display: block;
+}
+
+/* main thired section end here */
+
+/* up icon css start here */
+
+.up-button button{
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    float: right;
+    transition: .3s;
+
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    z-index: 10;
+}
+
+.up-button button:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+.up-icon{
+    font-size: 20px;
+    color: gray;
+}
+
+/* up icon css start here */
+
+/* main 5th section css start here */
+
+.main-5th-section{
+    margin-left: 50px;
+}
+
+.m-5-h3{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: -17px;
+}
+
+.m-5-h3:hover{
+    text-decoration: underline;
+}
+
+.m-5-love-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-5-love-icon i{
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: 430px;
+    margin-top: 90px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.m-5-love-icon i:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+.m-5-love-icon i:active{
+    font-weight: bold;
+    background-color: black;
+}
+
+.item-card__img img{
+    width: 210px;
+}
+
+.item-card__img{
+    width: 260px;
+    height: 250px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-card__tittle{
+    width: 260px;
+    margin-top: 10px;
+}
+
+.item-card__tittle a{
+    color: black;
+    text-decoration: none;
+}
+
+.item-card__tittle a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.item-card-tittle__p{
+    font-size: 14px;
+}
+
+.item-card__price{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -14px;
+}
+
+.item-card__price__dis{
+    font-size: 13px;
+    color: rgb(65, 65, 65);
+    float: right;
+    margin-right: 130px;
+    margin-top: -40px;
+}
+
+.item-card__price__dis__hr{
+    width: 45px;
+    margin-top: -31px;
+    margin-left: 88px;
+}
+
+/* main 5th section css end here */
+
+/* main 6th section css start here */
+
+.main-6th-section{
+    width: 907px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid rgb(165, 165, 165);
+    cursor: pointer;
+}
+
+.leftmenu__tittels{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.m-6-l-m__p1{
+    font-size: 12px;
+    color: rgb(82, 82, 82);
+}
+
+.m-6-l-m__logo{
+    width: 75px;
+    height: auto;
+    margin-top: -13px;
+    margin-left: 2px;
+}
+
+.m-6-l-m__p2{
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.m-6-l-m__p3{
+    font-size: 15px;
+    color: rgb(82, 82, 82);
+    margin-top: -6px;
+}
+
+.m-6-l-m__btn{
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 20px;
+    padding-bottom: 9px;
+    background-color: white;
+    margin-top: -5px;
+    transition: 0.3s;
+}
+
+.m-6-l-m__btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.rightmenu img{
+    width: 480px;
+    margin-left: 40px;
+}
+/* main 6th section css end here */
+
+/* main 7th section start here */
+
+.main-7th-section__banner1{
+    background-color: #F7F7F7;
+    margin-top: 20px;
+}
+
+.main-7th-section__tittle button{
+    color: black;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+}
+
+.main-7th-section__tittle h1,p{
+    color: black;
+}
+
+/* main 7th section end here */
+
+/* footer css start here */
+
+footer{
+    margin-bottom: 50px;
+}
+
+.footer-hr{
+    margin-top: 65px;
+}
+
+.footer-section{
+    margin: 20px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.footer-1st-section{
+    margin-right: 60px;
+}
+
+.footer-2nd-section{
+    margin-right: 70px;
+}
+
+.footer-3rd-section{
+    margin-right: 70px;
+}
+
+.footer-1st-section__div ul li a{
+    color: #767676;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-1st-section__div ul li a:hover{
+    color: #767676;
+    text-decoration: underline;
+}
+
+.footer-header a{
+    color: #767676;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 32px;
+    margin-bottom: -5px;
+}
+
+.footer-header a:hover{
+    color: #767676;
+    text-decoration: underline;
+}
+
+.footer-icon{
+    font-size: 19px;
+    margin-right: 5px;
+}
+
+.cuntry-option{
+    margin-left: -5px;
+}
+
+.footer-section-2{
+    margin-left: 50px;
+}
+
+.footer-section-2 a{
+    color: gray;
+    font-size: 11px;
+}
+
+.footer-section-2 p{
+    color: black;
+    font-size: 11px;
+}
+
+.footer-image-1{
+    width: 25px;
+}
+
+.i-tag{
+    width: 12px;
+}
+
+/* footer css end here */
